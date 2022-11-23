@@ -1,0 +1,534 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f7f8f5;
+    position: sticky;
+    top: 0;
+    z-index: 55;
+}
+
+ul {
+    list-style: none;
+    padding-right: 65px;
+
+}
+
+li {
+    margin-left: 15px;
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+}
+li a:hover{
+    color: crimson;
+}
+.nav1 li{
+    padding-left:25px ;
+}
+.nav1 {
+
+    text-align: center;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 130px;
+    /* border: 2px solid; */
+    /* height: 90px; */
+    /* margin-left: 50px;  */
+    /* border-radius: 30px; */
+    font-family: 'Oswald', sans-serif;
+    right: 60px;
+    box-shadow: 20px 20px 30px grey;
+    
+}
+
+.nav1:hover {
+    cursor: pointer;
+    background-color: rgb(217, 235, 243);
+}
+
+.text1 {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    margin-left: 180px;
+    width: 500px;
+    height: 35px;
+     border-radius: 20px;
+    background-color: lightgrey;
+    box-shadow: 20px 20px 30px grey;
+    border: none;
+}
+
+.text2 {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    margin-left: 700px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    box-shadow: 20px 20px 30px grey;
+    border: none;
+
+
+}
+
+.div1 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding-left: 5px;
+
+}
+
+.text1:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.text2:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.div1:hover {
+    cursor: pointer;
+
+}
+
+.offer1:hover {
+    cursor: pointer;
+    /* background-color:yellow ; */
+
+}
+.offer1{
+    background-image:url(images/offer.jpg);
+    background-size: 100% 100%;
+    animation: offer 15s ease infinite;
+
+}
+@keyframes offer{
+    25%{
+        background-image: url(images/offer5.jpg);
+    }
+    50%{
+        background-image: url(images/offer2.jpg);
+    }
+    75%{
+        background-image: url(images/offer3.jpg);
+    }
+    100%{
+        background-image: url(images/offer4.jpg);
+    }
+}
+
+.sidebar {
+
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 210px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#imgdr {
+    position: absolute;
+    top: 50px;
+    margin-left: 300px;
+}
+
+#imgdr:hover {
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.sidebar:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#nav2 li a {
+    border: 1px solid rgb(143, 123, 123);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 30px grey;
+    color: rgb(47, 119, 119);
+    /* font-family: 'Source Sans Pro', sans-serif;  */
+
+}
+#nav2 li{
+    padding-left: 25px;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#nav2 li a:hover {
+    cursor: pointer;
+    background-color: darkgray;
+    transition: 1s;
+    color: crimson;
+}
+
+.content {
+    width: 95%;
+    /* border: 2px solid black;    */
+    display: flex;
+    margin-left: 40px;
+     
+}
+
+.img3 {
+    /* border: 1px solid black;       */
+    text-align: center;
+    margin-right: 30px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    
+}
+
+
+
+
+.img4 {
+    /* border: 1px solid black;    */
+    text-align: center;
+    margin-right: 30px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+}
+
+
+.img5 {
+    /* border: 1px solid black;      */
+    text-align: center;
+    margin-right: 30px;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+
+}
+
+.img6 {
+    /* border: 1px solid black;    */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    margin-right: 30px;
+}
+
+.img7 {
+    /* border: 1px solid black;    */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+}
+
+/* .content:hover{
+    cursor: pointer;
+    background-color: darkgray;
+
+} */
+
+.img3:hover {
+    cursor: pointer;
+    background-color: #ffff99;
+    box-shadow: 0 0 20px lightsalmon;
+}
+
+.img4:hover {
+    cursor: pointer;
+    background-color: #ffff99;
+    box-shadow: 0 0 20px lightsalmon;
+}
+
+.img5:hover {
+    cursor: pointer;
+    background-color: #ffff99;
+    box-shadow: 0 0 20px lightsalmon;
+}
+
+.img6:hover {
+    cursor: pointer;
+    background-color: #ffff99;
+    padding: 10px;
+    box-shadow: 0 0 20px lightsalmon;
+}
+
+.img7:hover {
+    cursor: pointer;
+    background-color: #ffff99;
+    padding: 10px;
+    box-shadow: 0 0 20px lightsalmon;
+}
+.content .img3 .img4 .img5 .img6 .img7{
+    padding: 0px 120px;
+}
+
+.content2 {
+    display: flex;
+    width: 95%;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+}
+
+.content2 .img {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    padding: 0px 30px;
+    margin-left: 10px;
+
+}
+
+.content2 .img:hover {
+    cursor: pointer;
+    background-color: rgb(155, 223, 155);
+    box-shadow: 0 0 20px lightsalmon;
+
+}
+
+.content3 {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black;  */
+    margin-left: 40px;
+}
+
+.content3 .img8 {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    padding: 0px 30px;
+    margin-left: 10px;
+}
+.content3 .img8:hover {
+    cursor: pointer;
+    background-color: rgb(233, 180, 191);
+    box-shadow: 0 0 20px lightsalmon;
+
+}
+.content4{
+    display: flex;
+    width: 100%;
+     /* border: 1px solid black;   */
+     margin-left: 40px;
+}
+.content4 .img9 {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    padding: 0px 30px;
+    margin-left: 10px;
+}
+.content4 .img9:hover {
+    cursor: pointer;
+    background-color: rgb(233, 180, 191);
+    box-shadow: 0 0 20px lightsalmon;
+}
+.content5{
+    display: flex;
+    width: 100%;
+      /* border: 1px solid black;    */
+      margin-left: 40px;
+}
+.content5 .img10{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    padding: 0px 30px;
+    margin-left: 10px;
+}
+.content5 .img10:hover {
+    cursor: pointer;
+    background-color: rgb(233, 180, 191);
+    box-shadow: 0 0 20px lightsalmon;
+}
+.content6{
+    display: flex;
+    width: 100%;
+      /* border: 1px solid black;  */
+      margin-left: 40px;  
+}
+.content6 .img11{
+     /* border: 1px solid black;  */
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    color: rgb(47, 119, 119);
+    box-shadow: 20px 20px 30px grey;
+    padding: 0px 30px;
+    margin-left: 10px;
+}
+.content6 .img11:hover {
+    cursor: pointer;
+    background-color: rgb(233, 180, 191);
+    box-shadow: 0 0 20px lightsalmon;
+}
+.content7{
+    display: flex;
+    width: 100%;
+    margin-left: 40px;
+     /* border: 1px solid black; */
+}
+.content7 .img12{
+      /* border: 1px solid black;  */       
+      text-align: center;
+      font-family: 'Teko', sans-serif;
+      color: rgb(47, 119, 119);
+      box-shadow: 20px 20px 30px grey;
+      padding: 0px 30px;
+      margin-left: 10px;
+}
+.content7 .img12:hover{
+    cursor: pointer;
+    background-color: rgb(233, 180, 191);
+    box-shadow: 0 0 20px lightsalmon;
+}
+h2{
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+     
+    #nav2 ul li a{
+        display:block;
+        width:100%  ;
+        height: 50px;
+        margin: auto;
+    }
+}
+.content8{
+    display: flex;
+    width: 100%;
+}
+.content8 .brand{
+    /* border: 1px solid black; */
+    box-shadow: 20px 20px 30px grey;
+    padding: 0px 15px;
+}
+.content8 .brand:hover{
+    cursor: pointer;
+    background-color: rgb(166, 228, 228);
+    box-shadow: 0 0 20px lightsalmon;
+
+}
+aside{
+    display: flex;
+    width: 100%;
+}
+#ban1{
+    flex: 1;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin-right: 5px;
+    box-shadow: 20px 20px 30px grey;
+    
+}
+#ban2{
+    flex: 1;
+    width: 40%;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    font-family: 'Teko', sans-serif;
+    box-shadow: 20px 20px 30px grey;
+    /* background-color:  #D2C2C5; */
+
+}
+#ban2:hover{
+    cursor: pointer;
+    background-color:lightcyan ;
+    box-shadow: 0 0 20px lightsalmon;
+}
+#ban1:hover{
+    cursor: pointer;
+    box-shadow: 0 0 20px lightskyblue;
+
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 80px;
+}
+.footerFirstdiv{
+    /* border: 10px solid rgb(224, 22, 22); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+} 
+
+.FooterSubDiv{
+    display: flex;
+}
+#SubDiv1,#SubDiv2,#SubDiv3{
+    width: 33.3%;
+}
+ 
+.ul1 li a{
+    display: block;
+    color: aliceblue    ; 
+    font-family: 'Teko', sans-serif;
+    
+}
+.ul2 li a{
+    display: block;
+    color: aliceblue    ; 
+    font-family: 'Teko', sans-serif;
+
+}
+.ul3 li a{
+    display: block;
+    color: aliceblue    ; 
+    font-family: 'Teko', sans-serif;
+}
+.ul4 li a{
+    display: block;
+    color: aliceblue    ; 
+    font-family: 'Teko', sans-serif;
+}
+#box1  {
+    flex: 1;
+    /* border: 2px solid rgb(20, 249, 93); */
+     
+}
+#box2{
+    flex: 1;
+    /* border: 2px solid black;  */
+}
+#box3{
+    flex: 1;
+    /* border: 2px solid black;  */
+}
+h3{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+}
+/* .logo1{
+    position: absolute;
+margin-bottom: 800px;
+    left: 80px;
+} */
+
+ 
+ 
